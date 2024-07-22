@@ -95,8 +95,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  /* background: #0B0B0B; */
-  background-color: rgb(44, 44, 44);
+  background-color: #0B0B0B;
 }
 
 .text {
