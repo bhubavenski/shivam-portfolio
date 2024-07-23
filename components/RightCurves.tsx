@@ -3,7 +3,7 @@ import React from 'react';
 const RightCurves = () => {
   return (
     <div className="relative">
-      <div className="dot right-dot" />
+      <div className="bg-[#3220ff] blur-[250px] absolute top-1/2 right-1/2 h-[485px] w-[318px] rounded-[485px] transform -translate-y-1/2 translate-x-[375px]" />
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="219"
