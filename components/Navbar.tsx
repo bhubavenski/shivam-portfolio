@@ -1,10 +1,8 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import NavBarItem from './NavBarItem';
 import { cn } from '@/lib/utils';
-import dynamic from 'next/dynamic';
-
 
 const items = [
   {
@@ -26,11 +24,6 @@ type NavbarProps = {
 };
 //has-[div:nth-child(1):hover]:nav-bar-primary-gradiant-1 has-[div:nth-child(2):hover]:nav-bar-primary-gradiant-2 has-[div:nth-child(3):hover]:nav-bar-primary-gradiant-3
 const Navbar = ({ className }: NavbarProps) => {
-  useEffect(() => {
-    console.log('asd');
-    //@ts-ignore
-    calculateFixedStateNavbar();
-  }, []);
 
   return (
     <nav
