@@ -110,10 +110,10 @@
       linear-gradient(0deg, rgba(61, 61, 61, 0) 0%, rgba(61, 61, 61, 0) 100%),
       rgba(0, 0, 0, 0.69);
   }
-
   .nav-bar-primary-gradiant-1 {
-    background: radial-gradient(circle at 0%, rgba(50, 32, 255, 0.4) 0%, rgba(34, 40, 53, 0.4) 100%);
+    background: radial-gradient(circle at 0%, rgba(50, 32, 255, 0.4) 0%, rgba(34, 40, 53, 0.4) 55% 100%);
   }
+
   .nav-bar-primary-gradiant-2 {
     background: radial-gradient(circle at 50%, rgba(50, 32, 255, 0.4) 0%, rgba(34, 40, 53, 0.4) 100%);
   }
@@ -121,6 +121,9 @@
     background: radial-gradient(circle at 100%, rgba(50, 32, 255, 0.4) 0%, rgba(34, 40, 53, 0.4) 100%);
   }
 
+}
+.nav-bar-primary-gradiant-1 {
+  background: radial-gradient(circle at 0%, rgba(50, 32, 255, 0.4) 0%, rgba(34, 40, 53, 0.4) 55% 100%);
 }
 
 body {
@@ -144,4 +147,11 @@ body {
     linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(95, 149, 255, 0.2) 100%),
     linear-gradient(0deg, rgba(61, 61, 61, 0) 0%, rgba(61, 61, 61, 0) 100%),
     rgba(0, 0, 0, 0.69);
+}
+
+.fixed {
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
