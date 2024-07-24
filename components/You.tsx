@@ -18,6 +18,9 @@ const You = () => {
           An UX Designer
         </p>
       </div>
+      <div>
+        <Navbar />
+      </div>
     </div>
   );
 };

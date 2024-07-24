@@ -1,8 +1,10 @@
 
 
-export default function calculateFixedStateNavbar(): void {
-  const navbar = document.getElementById('navbar');
+export function calculateFixedStateNavbar(): void {
 
+  console.log('asds')
+
+  const navbar = document.getElementById('navbar');
   if (!navbar) return;
 
   const sticky = navbar.offsetTop;
