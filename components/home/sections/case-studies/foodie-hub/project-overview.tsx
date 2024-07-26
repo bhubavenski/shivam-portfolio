@@ -1,6 +1,7 @@
 import React from 'react';
-import Button from '../shared/Mybutton';
 import Image from 'next/image';
+import { cn } from '@/lib/utils';
+import { Button } from '@/components/ui/button';
 
 function ProjectOverview() {
   return (
@@ -16,7 +17,11 @@ function ProjectOverview() {
           Personalise Food Truck Business App
         </p>
       </div>
-      <Button>
+      <Button
+        className={cn(
+          'h-[59px] box-border px-[30px] py-[5px] flex items-center gap-[5px] rounded-full button_primary_gradient'
+        )}
+      >
         <Image src="Docs.svg" alt="read case study" width={44} height={44} />
         <span className=" text-lg font-semibold font-inter">
           Read Case Study

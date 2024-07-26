@@ -27,9 +27,14 @@ const config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       boxShadow: {
-        primarySm: '0px 2px 0px 0px #3b158b'
+        primarySm: '0px 2px 0px 0px #3b158b',
+        darkSm: '0px 0px 53px 0px rgba(89, 134, 251, 0.20)'
       },
       colors: {
+        light: {
+          white: 'rgba(255, 255, 255, 1)'
+        },
+        
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
