@@ -13,7 +13,7 @@ export default function Home() {
         <You />
         <RightCurves />
       </section>
-      {/* <section className="relative bg-[#0B0B0B]  h-screen">
+      <section className="relative bg-[#0B0B0B]  h-screen">
         <ProjectOverview />
         <div className=" absolute top-[260px] bottom-[336px] right-[290px] left-[1315px] w-[318px] h-[318px] ball rounded-full blur-[500px]" />
         <Image
@@ -24,7 +24,7 @@ export default function Home() {
           height={518}
         />
         <ButtonsGroup className=' absolute left-[800px] bottom-[103px] right-[800px]'/>
-      </section> */}
+      </section>
     </main>
   );
 }

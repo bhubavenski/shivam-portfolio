@@ -3,9 +3,7 @@
 import React, { useEffect, useRef } from 'react';
 import Navbar from './Navbar';
 import Ripple from './magicui/ripple';
-import {
-  calculateFixedStateNavbar,
-} from '@/lib/dom';
+import { calculateFixedStateNavbar } from '@/lib/dom';
 
 const You = () => {
   const navRef = useRef<HTMLElement | null>(null);
@@ -13,7 +11,7 @@ const You = () => {
 
   useEffect(() => {
     if (!navRef.current || !heroRef.current) return;
-    console.log('pusna se')
+    console.log('pusna se');
     calculateFixedStateNavbar(navRef.current, heroRef.current);
   }, []);
 
@@ -28,7 +26,7 @@ const You = () => {
         <span className="font-spartan text-[32px] font-semibold tracking-[0.32px] text-shadow-sm">
           Hi, I&rsquo;m
         </span>
-        <h1 className="text-primary-gradiant text-[64px] font-black uppercase tracking-[12.8px] text-shadow-sm">
+        <h1 className="text_primary_gradient text-[64px] font-black uppercase tracking-[12.8px] text-shadow-sm">
           Shivam Pandya
         </h1>
         <p className=" font-spartan text-[40px] tracking-[0.4px]">

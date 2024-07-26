@@ -32,7 +32,7 @@ const items = [
 type NavbarProps = {
   className?: string;
 };
-//has-[div:nth-child(1):hover]:nav-bar-primary-gradiant-1 has-[div:nth-child(2):hover]:nav-bar-primary-gradiant-2 has-[div:nth-child(3):hover]:nav-bar-primary-gradiant-3
+//has-[div:nth-child(1):hover]:nav-bar-primary-gradient-1 has-[div:nth-child(2):hover]:nav-bar-primary-gradient-2 has-[div:nth-child(3):hover]:nav-bar-primary-gradient-3
 
 const Navbar = forwardRef<HTMLElement, NavbarProps>(function MyInput(
   { className },
@@ -42,7 +42,7 @@ const Navbar = forwardRef<HTMLElement, NavbarProps>(function MyInput(
     <nav
       ref={ref}
       className={cn(
-        'has-[div:nth-child(1):hover]:nav-bar-primary-gradiant-1 has-[div:nth-child(2):hover]:nav-bar-primary-gradiant-2 has-[div:nth-child(3):hover]:nav-bar-primary-gradiant-3 w-[425px] h-[86px] overflow-hidden text-[#C5CEFF] dark-gradiant flex px-[30px] py-[15px] justify-between items-center rounded-full shadow-primarySm backdrop-blur-[10px] ',
+        ' z-50 has-[div:nth-child(1):hover]:nav-bar-primary-gradient-1 has-[div:nth-child(2):hover]:nav-bar-primary-gradient-2 has-[div:nth-child(3):hover]:nav-bar-primary-gradient-3 w-[425px] h-[86px] overflow-hidden text-[#C5CEFF] dark-gradient flex px-[30px] py-[15px] justify-between items-center rounded-full shadow-primarySm backdrop-blur-[10px] ',
         className
       )}
     >

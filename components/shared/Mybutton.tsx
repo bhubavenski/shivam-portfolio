@@ -1,22 +1,22 @@
 import { cn } from '@/lib/utils';
 import React from 'react';
-
+import style from './styles.module.css';
 type ButtonProps = {
   children: React.ReactNode;
   classname?: string;
-  variant?: 'primary' | 'outlined' | 'dark' 
 };
 
-const Button = ({ children, classname, variant='primary' }: ButtonProps) => {
+const Button = ({ children, classname }: ButtonProps) => {
   return (
-    <Button
-      classname={cn(
-        'h-[59px] primary-gradient-button shadow-primaryMd box-border px-[30px] py-[5px] flex items-center gap-[5px] rounded-full',
+    <button
+      className={cn(
+        'h-[59px] box-border px-[30px] py-[5px] flex items-center gap-[5px] rounded-full',
+        style.button_primary_gradient,
         classname
       )}
     >
       {children}
-    </Button>
+    </button>
   );
 };
 

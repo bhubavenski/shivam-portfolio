@@ -18,7 +18,9 @@ const config = {
       },
     },
     extend: {
-      
+      fontFamily: {
+        spartan: ['var(--font-spartan)'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

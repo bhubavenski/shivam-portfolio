@@ -9,7 +9,7 @@ function ProjectOverview() {
         <h2 className="font-spartan text-[#E9EEFF] text-2xl font-semibold tracking-[0.24px] leading-[22.08px]">
           Food App
         </h2>
-        <h1 className="text-[64px] font-black uppercase tracking-[0.64px] text-shadow-sm text-primary-gradient-s">
+        <h1 className="text-[64px] font-black uppercase tracking-[0.64px] text-shadow-sm text_primary_gradient">
           FOODIE HUB
         </h1>
         <p className=" font-spartan text-[#E9EEFF] text-[32px] font-medium  tracking-[0.36px] leading-normal">
@@ -19,7 +19,6 @@ function ProjectOverview() {
       <Button>
         <Image src="Docs.svg" alt="read case study" width={44} height={44} />
         <span className=" text-lg font-semibold font-inter">
-          {' '}
           Read Case Study
         </span>
       </Button>

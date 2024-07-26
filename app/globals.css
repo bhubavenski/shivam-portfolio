@@ -79,7 +79,7 @@
   }
 }
 @layer utilities {
-  .nav-bar-primary-gradiant {
+  .nav-bar-primary-gradient {
     background: radial-gradient(
         194.01% 61.06% at 8.94% 50%,
         rgba(50, 32, 255, 0.4) 0%,
@@ -94,20 +94,35 @@
       linear-gradient(0deg, rgba(61, 61, 61, 0) 0%, rgba(61, 61, 61, 0) 100%),
       rgba(0, 0, 0, 0.69);
   }
-  .nav-bar-primary-gradiant-1 {
-    background: radial-gradient(circle at 0%, rgba(50, 32, 255, 0.4) 0%, rgba(34, 40, 53, 0.4) 55% 100%);
+  .nav-bar-primary-gradient-1 {
+    background: radial-gradient(
+      circle at 0%,
+      rgba(50, 32, 255, 0.4) 0%,
+      rgba(34, 40, 53, 0.4) 55% 100%
+    );
   }
 
-  .nav-bar-primary-gradiant-2 {
-    background: radial-gradient(circle at 50%, rgba(50, 32, 255, 0.4) 0%, rgba(34, 40, 53, 0.4) 100%);
+  .nav-bar-primary-gradient-2 {
+    background: radial-gradient(
+      circle at 50%,
+      rgba(50, 32, 255, 0.4) 0%,
+      rgba(34, 40, 53, 0.4) 100%
+    );
   }
-  .nav-bar-primary-gradiant-3 {
-    background: radial-gradient(circle at 100%, rgba(50, 32, 255, 0.4) 0%, rgba(34, 40, 53, 0.4) 100%);
+  .nav-bar-primary-gradient-3 {
+    background: radial-gradient(
+      circle at 100%,
+      rgba(50, 32, 255, 0.4) 0%,
+      rgba(34, 40, 53, 0.4) 100%
+    );
   }
-
 }
-.nav-bar-primary-gradiant-1 {
-  background: radial-gradient(circle at 0%, rgba(50, 32, 255, 0.4) 0%, rgba(34, 40, 53, 0.4) 55% 100%);
+.nav-bar-primary-gradient-1 {
+  background: radial-gradient(
+    circle at 0%,
+    rgba(50, 32, 255, 0.4) 0%,
+    rgba(34, 40, 53, 0.4) 55% 100%
+  );
 }
 
 body {
@@ -115,14 +130,14 @@ body {
   background-color: #0b0b0b;
 }
 
-.text-primary-gradiant {
+.text-primary-gradient {
   background: linear-gradient(80deg, #6059e2 21.29%, #a3b1ff 74.02%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.dark-gradiant {
+.dark-gradient {
   background: linear-gradient(
       90deg,
       rgba(151, 173, 223, 0.2) 0%,
@@ -138,4 +153,11 @@ body {
   top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.text_primary_gradient {
+  background: linear-gradient(80deg, #6059e2 21.29%, #a3b1ff 74.02%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
