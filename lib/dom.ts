@@ -1,25 +1,18 @@
+export function calculateFixedStateNavbar(nav: HTMLElement, hero: HTMLElement): void {
+  const THRESHOLD = 1;
 
-
-export function calculateFixedStateNavbar(): void {
-
-  console.log('asds')
-
-  const navbar = document.getElementById('navbar');
-  if (!navbar) return;
-
-  const sticky = navbar.offsetTop;
-
-  function myFunction() {
-    if (window.scrollY >= 112) {
-      if (!navbar) return;
-      navbar.classList.add('fixed');
-    } else {
-      if (!navbar) return;
-      navbar.classList.remove('fixed');
+  const observer = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.intersectionRatio < THRESHOLD) {
+        nav.classList.add('fixed');
+      } else {
+        nav.classList.remove('fixed');
+      }
+    },
+    {
+      threshold: [THRESHOLD]
     }
-  }
+  );
 
-  window.onscroll = function () {
-    myFunction();
-  };
+  observer.observe(hero);
 }

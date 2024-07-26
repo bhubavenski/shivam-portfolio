@@ -1,14 +1,12 @@
 import type { Metadata } from 'next';
 import { Inter, League_Spartan } from 'next/font/google';
 import './globals.css';
-import dynamic from 'next/dynamic';
-import { useEffect } from 'react';
 
 const inter = Inter({ subsets: ['latin'] });
 
 const spartan = League_Spartan({
   subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   variable: '--font-spartan',
 });
 
